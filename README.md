@@ -7,12 +7,12 @@ A simple Flutter counter application using Cubit for state management.
 - State management using Cubit
 - Simple and clean UI
 
-## Screenshots
+## UI Showcase
 
-
-  <img src="images/screen1.png" width="200" height="400" style="margin-right: 20px;"> 
+<p align="start">
+  <img src="images/screen1.png" width="200" height="400" style="margin-right: 10px;"> 
   <img src="images/screen2.png" width="200" height="400">
-
+</p>
 
 ## Getting Started
 
