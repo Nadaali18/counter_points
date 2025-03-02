@@ -1,3 +1,4 @@
+import 'package:counter_points/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
 class EvaluatedButtonn extends StatelessWidget {
@@ -16,8 +17,9 @@ class EvaluatedButtonn extends StatelessWidget {
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
           backgroundColor: color, minimumSize: const Size(100, 40)),
-      child: Text(
-        '$text'       
+      child: CustomText(
+        text: '$text', 
+        color: Colors.white,
       ),
     );
   }

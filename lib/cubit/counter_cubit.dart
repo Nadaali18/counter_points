@@ -2,7 +2,7 @@ import 'package:counter_points/cubit/counter_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CounterCubit extends Cubit<CounterState>{
-  CounterCubit(super.initialState);
+  CounterCubit():super(TeamAIncrementState());
    
    int teamApoints = 0;
    int teamBpoints = 0;
@@ -10,8 +10,14 @@ class CounterCubit extends Cubit<CounterState>{
    void counter(String team,int buttonNumber){
       if(team=='A'){
         teamApoints+=buttonNumber;
-      }else{
+        emit(TeamAIncrementState());
+      }else if(team=='B'){
         teamBpoints+=buttonNumber;
+        emit(TeamBIncrementState());
+      }else{
+        teamApoints=0;
+        teamBpoints=0;
+        emit(ResetState());
       }
    }
 
