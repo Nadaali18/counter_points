@@ -1,6 +1,6 @@
 # Counter Points
 
-A simple Flutter counter application using Cubit for state management.
+A simple Flutter counter app that uses Cubit to Manage app State.
 
 ## Features
 - Increment and decrement counter
@@ -44,4 +44,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to contribute or suggest improvements!
+Feel free to contribute or suggest improvements!♥
