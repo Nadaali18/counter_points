@@ -27,7 +27,7 @@ flutter --version
 ### Installation
 Clone the repository and run the app:
 ```sh
-git clone https://github.com/yourusername/counter_points.git
+git clone https://github.com/Nadaali18/counter_points.git
 cd counter_points
 flutter pub get
 flutter run
