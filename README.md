@@ -9,10 +9,10 @@ A simple Flutter counter application using Cubit for state management.
 
 ## Screenshots
 
-<p align="center">
-  <img src="images/screen1.png" width="200"> 
-  <img src="images/screen2.png" width="200">
-</p>
+
+  <img src="images/screen1.png" width="200" height="400" style="margin-right: 20px;"> 
+  <img src="images/screen2.png" width="200" height="400">
+
 
 ## Getting Started
 
